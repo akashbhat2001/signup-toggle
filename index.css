@@ -1,0 +1,390 @@
+#msform {
+  text-align: center;
+  position: relative;
+ 
+}
+
+#msform fieldset {
+
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative
+}
+
+body {
+  font-family: Raleway;
+  background: #17f0f01c;
+}
+
+.form-card {
+  color: #16161E;	
+  font-size: 16px;	
+  text-align: left;
+  position: relative;
+  margin-top: 26px;
+}
+
+#msform fieldset:not(:first-of-type) {
+  display: none
+}
+
+#msform input,
+#msform textarea {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding: 16px 284px 0px -1px;
+  padding: 51px 284px opx -11px;
+  border: 1px solid #E0DDFF;
+  border-radius: 40px;
+  margin-bottom: 39px;
+  margin-top: -30px;
+  height: 53px;
+  width: 399px;
+  display: flex;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: black;
+  background: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-left: 220px;
+}
+
+#msform input:focus,
+#msform textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #673AB7;
+  outline-width: 0
+}
+
+#msform .action-button {
+  background: #17f0f005;
+  width: 105px;
+  height: 50px;
+  font-weight: 600;
+  color: #2A2559;
+  border: 1px solid #2A2559;
+  border-radius: 100px;
+  cursor: pointer;
+  margin: 10px 0px 10px 5px;
+  font-size: 16px;
+  padding: 16px 33px;
+
+}
+/* === */
+.active{
+  background: #2A2559 !important;
+  color:white;
+}
+
+input.previous.action-button-previous {
+  /* float: right; */
+  position: relative;
+  left: 45%;
+}
+
+input.next.action-button {
+  position: relative;
+  left: 47%;
+  top: 10px;
+}
+#msform .action-button-previous {
+  background: #17f0f005;
+  padding: 16px 33px;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  width: 130px;
+  height: 50px;
+  color: #2A2559;
+  border: 1px solid #2A2559;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 10px 5px 10px 0px;
+  float: left;
+  justify-content: center;
+  /* padding: 16px 33px; */
+}
+
+.next-prev {
+  display: flex;
+  float: right;
+}
+
+.card {
+  z-index: 0;
+  border: none;
+  position: relative
+}
+
+.fs-title {
+  font-size: 25px;
+  color: #673AB7;
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-align: left
+}
+
+.purple-text {
+  color: #673AB7;
+  font-weight: normal
+}
+
+.steps {
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 10px;
+  font-weight: normal;
+  text-align: right
+}
+
+.fieldlabels {
+  color: #16161E;
+  text-align: left;
+  font-family: raleway;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  top: 10px;
+  position: relative;
+
+}
+
+
+
+
+.fit-image {
+  width: 100%;
+  object-fit: cover
+}
+
+.stepper {
+  display: flex;
+}
+/* === */
+.item {
+  background: #b6bbbfbd;
+  width: 140px;
+  height: 138px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 0px 20px;
+  margin: 0px 24px 12px 0px;
+
+
+}
+
+.switches-container {
+  width: 14rem;
+  position: relative;
+  display: flex;
+  padding: 0;
+  border: 1px solid #2a2559;
+  position: relative;
+  background: #ffffff;
+  line-height: 4rem;
+  border-radius: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+
+/* input (radio) for toggling. hidden - use labels for clicking on */
+.switches-container input {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.subleft {
+  width: 303px;
+  border-radius: 20px;
+  border: 1px solid #b6bbbf82;
+  z-index: 1;
+  position: relative;
+  height: 44%;
+  background: white;
+  margin-top: -6px;
+}
+.left{
+  height: 881px;
+}
+.image1 {
+
+  width: 303px;
+  height: 440px;
+}
+
+/* labels for the input (radio) boxes - something to click on */
+.switches-container label {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+  color: var(--switches-label-color);
+}
+
+/* switch highlighters wrapper (sliding left / right) 
+  - need wrapper to enable the even margins around the highlight box
+*/
+.switch-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 48%;
+  padding: 0.15rem;
+  z-index: 3;
+  transition: transform .5s cubic-bezier(.77, 0, .175, 1);
+  /* transition: transform 1s; */
+}
+
+/* switch box highlighter */
+.switch {
+  border-radius: 3rem;
+  background: #2a2559;
+  height: 100%;
+  color: white;
+}
+
+
+
+/* switch box labels
+  - default setup
+  - toggle afterwards based on radio:checked status 
+*/
+.switch div {
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  display: block;
+  color: var(--switch-text-color);
+  transition: opacity .2s cubic-bezier(.77, 0, .175, 1) .125s;
+  will-change: opacity;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-wrapper {
+  margin-top:40px;
+  margin-left: 22px;
+  display: flex;
+}
+
+.count {
+  bottom: 25px;
+  display: flex;
+  position: relative;
+}
+
+.right,.second-right {
+  position: relative;
+  left: 63px;
+
+}
+
+.count-range {
+  margin-top:-17px;
+  display: flex;
+  margin-left: 150px
+}
+/* === */
+.inner {
+  width: 61px;
+  text-align: left;
+  /* text-align: left; */
+  margin-left: 18px;
+  margin-top: 20px;
+}
+
+.optional{margin-top:-22px;}
+
+.image-right {
+  border-radius: 21px;
+  width: 36px;
+  height: 36px;
+  top: 10px;
+  position: relative;
+}
+
+.left-title {
+  margin-left: 43px;
+  margin-top: 31px;
+}
+
+.toggle {
+  position: relative;
+  top: 25px;
+}
+
+.para {
+  position: relative;
+  margin-left: 32px;
+  top: 58px;
+}
+
+.text {
+  position: relative;
+  top: 19%;
+  display: flex;
+  margin-left: 38px
+}
+
+.text a {
+  margin-top: 15px;
+}
+
+/* slide the switch box from right to left */
+.switches-container input:nth-of-type(1):checked~.switch-wrapper {
+  transform: translateX(0%);
+}
+
+/* slide the switch box from left to right */
+.switches-container input:nth-of-type(2):checked~.switch-wrapper {
+  transform: translateX(100%);
+}
+
+/* toggle the switch box labels - first checkbox:checked - show first switch div */
+.switches-container input:nth-of-type(1):checked~.switch-wrapper .switch div:nth-of-type(1) {
+  opacity: 1;
+}
+
+/* toggle the switch box labels - second checkbox:checked - show second switch div */
+.switches-container input:nth-of-type(2):checked~.switch-wrapper .switch div:nth-of-type(2) {
+  opacity: 1;
+}
+/* select button */
+.form-card select {	
+  padding-top: 10px;	
+  padding-left: 20px;	
+  padding: 16px 284px 0px -1px;	
+  padding: 51px 284px opx -11px;	
+  border: 1px solid #E0DDFF;	
+  border-radius: 40px;	
+  margin-bottom: 39px;	
+  margin-top: -30px;	
+  height: 53px;	
+  width: 399px;	
+  display: flex;	
+  box-sizing: border-box;	
+  font-family: montserrat;	
+  color: black;	
+  background: white;	
+  font-size: 16px;	
+  letter-spacing: 1px;	
+  margin-left: 220px;	
+}
+label.dropdown {
+  font-weight: 600;
+  color: #16161E;
+  font-size: 16px;
+  /* color: black; */
+}
