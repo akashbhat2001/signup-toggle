@@ -1,18 +1,16 @@
 #msform {
   text-align: center;
   position: relative;
-
 }
 
 #msform fieldset {
-
   border: 0 none;
   border-radius: 0.5rem;
   box-sizing: border-box;
   width: 100%;
   margin: 0;
   padding-bottom: 20px;
-  position: relative
+  position: relative;
 }
 
 body {
@@ -21,7 +19,7 @@ body {
 }
 
 .form-card {
-  color: #16161E;
+  color: #16161e;
   font-size: 16px;
   text-align: left;
   position: relative;
@@ -29,7 +27,7 @@ body {
 }
 
 #msform fieldset:not(:first-of-type) {
-  display: none
+  display: none;
 }
 
 #msform input,
@@ -38,7 +36,7 @@ body {
   padding-left: 20px;
   padding: 16px 284px 0px -1px;
   padding: 51px 284px opx -11px;
-  border: 1px solid #E0DDFF;
+  border: 1px solid #e0ddff;
   border-radius: 40px;
   margin-bottom: 39px;
   margin-top: -30px;
@@ -59,8 +57,8 @@ body {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 1px solid #673AB7;
-  outline-width: 0
+  border: 1px solid #673ab7;
+  outline-width: 0;
 }
 
 #msform .action-button {
@@ -68,19 +66,27 @@ body {
   width: 105px;
   height: 50px;
   font-weight: 600;
-  color: #2A2559;
-  border: 1px solid #2A2559;
+  color: #2a2559;
+  border: 1px solid #2a2559;
   border-radius: 100px;
   cursor: pointer;
   margin: 10px 0px 10px 5px;
   font-size: 16px;
   padding: 16px 33px;
-
 }
 
 /* === */
-.active {
-  background: #2A2559 !important;
+
+.active:nth-child(3n) {
+  background: #ff5733bd !important;
+  color: white;
+}
+.active:nth-child(3n + 2) {
+  background: #0096ff !important;
+  color: white;
+}
+.active:nth-child(3n + 1) {
+  background: #2a2559 !important;
   color: white;
 }
 
@@ -104,8 +110,8 @@ input.next.action-button {
   position: relative;
   width: 130px;
   height: 50px;
-  color: #2A2559;
-  border: 1px solid #2A2559;
+  color: #2a2559;
+  border: 1px solid #2a2559;
   border-radius: 40px;
   cursor: pointer;
   margin: 10px 5px 10px 0px;
@@ -122,20 +128,20 @@ input.next.action-button {
 .card {
   z-index: 0;
   border: none;
-  position: relative
+  position: relative;
 }
 
 .fs-title {
   font-size: 25px;
-  color: #673AB7;
+  color: #673ab7;
   margin-bottom: 15px;
   font-weight: normal;
-  text-align: left
+  text-align: left;
 }
 
 .purple-text {
-  color: #673AB7;
-  font-weight: normal
+  color: #673ab7;
+  font-weight: normal;
 }
 
 .steps {
@@ -143,11 +149,11 @@ input.next.action-button {
   color: gray;
   margin-bottom: 10px;
   font-weight: normal;
-  text-align: right
+  text-align: right;
 }
 
 .fieldlabels {
-  color: #16161E;
+  color: #16161e;
   text-align: left;
   font-family: raleway;
   font-size: 16px;
@@ -155,15 +161,11 @@ input.next.action-button {
   font-weight: 600;
   top: 10px;
   position: relative;
-
 }
-
-
-
 
 .fit-image {
   width: 100%;
-  object-fit: cover
+  object-fit: cover;
 }
 
 .stepper,
@@ -179,8 +181,6 @@ input.next.action-button {
   border-radius: 10px;
   margin-left: 0px 20px;
   margin: 0px 24px 12px 0px;
-
-
 }
 
 .switches-container {
@@ -197,7 +197,6 @@ input.next.action-button {
   margin-right: auto;
   color: black;
 }
-
 
 /* input (radio) for toggling. hidden - use labels for clicking on */
 .switches-container input {
@@ -222,7 +221,6 @@ input.next.action-button {
 }
 
 .image1 {
-
   width: 303px;
   height: 440px;
 }
@@ -247,7 +245,7 @@ input.next.action-button {
   width: 48%;
   padding: 0.15rem;
   z-index: 3;
-  transition: transform .5s cubic-bezier(.77, 0, .175, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   /* transition: transform 1s; */
 }
 
@@ -259,8 +257,6 @@ input.next.action-button {
   color: white;
 }
 
-
-
 /* switch box labels
   - default setup
   - toggle afterwards based on radio:checked status 
@@ -271,7 +267,7 @@ input.next.action-button {
   opacity: 0;
   display: block;
   color: var(--switch-text-color);
-  transition: opacity .2s cubic-bezier(.77, 0, .175, 1) .125s;
+  transition: opacity 0.2s cubic-bezier(0.77, 0, 0.175, 1) 0.125s;
   will-change: opacity;
   position: absolute;
   top: 0;
@@ -294,13 +290,12 @@ input.next.action-button {
 .second-right {
   position: relative;
   left: 63px;
-
 }
 
 .count-range {
   margin-top: -17px;
   display: flex;
-  margin-left: 150px
+  margin-left: 150px;
 }
 
 /* === */
@@ -344,7 +339,7 @@ input.next.action-button {
   position: relative;
   top: 19%;
   display: flex;
-  margin-left: 38px
+  margin-left: 38px;
 }
 
 .text a {
@@ -352,22 +347,30 @@ input.next.action-button {
 }
 
 /* slide the switch box from right to left */
-.switches-container input:nth-of-type(1):checked~.switch-wrapper {
+.switches-container input:nth-of-type(1):checked ~ .switch-wrapper {
   transform: translateX(0%);
 }
 
 /* slide the switch box from left to right */
-.switches-container input:nth-of-type(2):checked~.switch-wrapper {
+.switches-container input:nth-of-type(2):checked ~ .switch-wrapper {
   transform: translateX(100%);
 }
 
 /* toggle the switch box labels - first checkbox:checked - show first switch div */
-.switches-container input:nth-of-type(1):checked~.switch-wrapper .switch div:nth-of-type(1) {
+.switches-container
+  input:nth-of-type(1):checked
+  ~ .switch-wrapper
+  .switch
+  div:nth-of-type(1) {
   opacity: 1;
 }
 
 /* toggle the switch box labels - second checkbox:checked - show second switch div */
-.switches-container input:nth-of-type(2):checked~.switch-wrapper .switch div:nth-of-type(2) {
+.switches-container
+  input:nth-of-type(2):checked
+  ~ .switch-wrapper
+  .switch
+  div:nth-of-type(2) {
   opacity: 1;
 }
 
@@ -377,7 +380,7 @@ input.next.action-button {
   padding-left: 20px;
   padding: 16px 284px 0px -1px;
   padding: 51px 284px opx -11px;
-  border: 1px solid #E0DDFF;
+  border: 1px solid #e0ddff;
   border-radius: 40px;
   margin-bottom: 39px;
   margin-top: -30px;
@@ -395,7 +398,7 @@ input.next.action-button {
 
 label.dropdown {
   font-weight: 600;
-  color: #16161E;
+  color: #16161e;
   font-size: 16px;
   /* color: black; */
 }
@@ -416,5 +419,4 @@ input#end-date {
 
 .stage-level {
   margin-top: 20px !important;
-
 }
