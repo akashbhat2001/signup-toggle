@@ -15,29 +15,29 @@
         <div class="left">
             <img src="https://picsum.photos/200" class="image1">
             <div class="subleft">
-              <h1 class="left-title">Sign up as</h1>
-              <div class="toggle">
-                  <div class="switches-container">
-                      <input type="radio" id="switchMonthly" name="switchPlan" value="Monthly" checked="checked" />
-                      <input type="radio" id="switchYearly" name="switchPlan" value="Yearly" />
-                      <label for="switchMonthly" class="mentee">Mentee</label>
-                      <label for="switchYearly" class="mentor">Mentor</label>
-                      <div class="switch-wrapper">
-                          <div class="switch">
-                              <div class="mentee">Mentee</div>
-                              <div class="mentor">Mentor</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia similique at
-                repellendus rem quam necessitatibus </p>
+                <h1 class="left-title">Sign up as</h1>
+                <div class="toggle">
+                    <div class="switches-container">
+                        <input type="radio" id="switchMonthly" name="switchPlan" value="Monthly" checked="checked" />
+                        <input type="radio" id="switchYearly" name="switchPlan" value="Yearly" />
+                        <label for="switchMonthly" class="mentee">Mentee</label>
+                        <label for="switchYearly" class="mentor">Mentor</label>
+                        <div class="switch-wrapper">
+                            <div class="switch">
+                                <div class="mentee">Mentee</div>
+                                <div class="mentor">Mentor</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia similique at
+                    repellendus rem quam necessitatibus </p>
 
-              <div class="text">
-                  <p>Already a Mentor?</p> <a href="">Sign in here</a>
-              </div>
+                <div class="text">
+                    <p>Already a Mentor?</p> <a href="">Sign in here</a>
+                </div>
             </div>
-           
+
         </div>
 
         <!-- Mentee right section starts -->
@@ -47,7 +47,8 @@
                 <div class="count">
                     <h2>Welcome to Sanrakshak</h2>
                     <div class="count-range">
-                        <h2 id="steps">1</h2><h1>/5</h1>
+                        <h2 id="steps">1</h2>
+                        <h1>/5</h1>
                     </div>
 
                 </div>
@@ -91,121 +92,121 @@
 
                     <br> <!-- fieldsets -->
                     <fieldset>
-                      <div class="form-card">
-                          <div>
-                              <label class="fieldlabels">Mentee Name</label> <input type="text" name="name"
-                                  placeholder="Enter your name" required/>
-                          </div>
-                          <div>
-                              <label class="fieldlabels">Email</label> <input type="email" name="email"
-                                  placeholder="Enter your mail Id" />
-                          </div>
-                          <div>
-                              <label class="fieldlabels">Phone Number</label> <input type="number" name="phone"
-                                  placeholder="Enter your Phone number" required/>
-                          </div>
-                          <div>
-                              <label class="fieldlabels">Profile photo</label> <input type="file" name="photo"
-                                  placeholder="Upload your Image" />
-                          </div>
-                          <div>
-                              <label class="fieldlabels">SUV ID</label> <input type="number" name="suvid"
-                                  placeholder="Enter your SUV ID" required/>
-                          </div>
-                          <div>
-                              <label class="fieldlabels">LinkedIn profile link </label> <input type="url"
-                                  name="linkedin" placeholder="Enter your LinkedIn profile link" />
-                          </div>
-                      </div>
-                      <input type="button" name="previous" class="previous action-button-previous previous-dis" disabled="true"
-                      value=" &lt; Previous" />
-                  <input type="button" name="next" class="next action-button" value="Next &gt;" />
-                  </fieldset>
-                  <fieldset>
-                      <div class="form-card">
-                          <div>
-                              <label class="fieldlabels">School Grade</label> <input type="text" name="sgrade"
-                                  placeholder="Enter your grade" required/>
-                          </div>
-                          <div>
-                              <label class="fieldlabels">School Name</label> <input type="text" name="sname"
-                                  placeholder="Enter yourSchool name" required/>
-                          </div>                           
-                      </div>
-                      <input type="button" name="previous" class="previous action-button-previous" 
-                      value=" &lt; Previous" />
-                  <input type="button" name="next" class="next action-button" value="Next &gt;" />
-                  </fieldset>
-                  <fieldset>
-                      <div class="form-card">
-                          <div>
-                              <label class="dropdown" for="interest" >Topic Of Interest</label> 
-                              <select>
-                                  <option value="interest" disabled selected>Enter your Topic Of Interest</option>
-                                  <option value="option1">Option 1</option>
-                                  <option value="option2">Option 2</option>
-                                  <option value="option3">Option 3</option>
+                        <div class="form-card">
+                            <div>
+                                <label class="fieldlabels">Mentee Name</label> <input type="text" name="name"
+                                    placeholder="Enter your name" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Email</label> <input type="email" name="email"
+                                    placeholder="Enter your mail Id" />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Phone Number</label> <input type="number" name="phone"
+                                    placeholder="Enter your Phone number" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Profile photo</label> <input type="file" name="photo"
+                                    placeholder="Upload your Image" />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">SUV ID</label> <input type="number" name="suvid"
+                                    placeholder="Enter your SUV ID" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">LinkedIn profile link </label> <input type="url"
+                                    name="linkedin" placeholder="Enter your LinkedIn profile link" />
+                            </div>
+                        </div>
+                        <input type="button" name="previous" id="previous-button" class="previous action-button-previous previous-button"
+                            disabled="true" value=" &lt; Previous" />
+                        <input type="button" name="next" class="next action-button" value="Next &gt;" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div>
+                                <label class="fieldlabels">School Grade</label> <input type="text" name="sgrade"
+                                    placeholder="Enter your grade" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">School Name</label> <input type="text" name="sname"
+                                    placeholder="Enter yourSchool name" required />
+                            </div>
+                        </div>
+                        <input type="button" name="previous" class="previous action-button-previous"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="next action-button" value="Next &gt;" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div>
+                                <label class="dropdown" for="interest">Topic Of Interest</label>
+                                <select>
+                                    <option value="interest" disabled selected>Enter your Topic Of Interest</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
                                 </select>
-                          </div>
-                          <div>
-                              <label class="dropdown" for="industry">Industry</label> 
-                              <select>
-                                  <option value="interest" disabled selected>Enter your Industry</option>
-                                  <option value="option1">Option 1</option>
-                                  <option value="option2">Option 2</option>
-                                  <option value="option3">Option 3</option>
+                            </div>
+                            <div>
+                                <label class="dropdown" for="industry">Industry</label>
+                                <select>
+                                    <option value="interest" disabled selected>Enter your Industry</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
                                 </select>
-                          </div>
-                          <div>
-                              <label class="fieldlabels">Description</label> <input type="text" name="phone"
-                                  placeholder="Enter your Description" required/>
-                          </div>
-                      </div>
-                      <input type="button" name="previous" class="previous action-button-previous" 
-                      value=" &lt; Previous" />
-                  <input type="button" name="next" class="next action-button" value="Next &gt;" />
-                  </fieldset>
-                  <fieldset>
-                      <div class="form-card">
-                          <div>
-                              <label class="fieldlabels">Project Heading</label> <input type="text" name="heading"
-                                  placeholder="Enter your Project Heading" />
-                          </div>
-                          <div>
-                              <label class="dropdown" for="interest" >Topic Of Interest</label> 
-                              <select>
-                                  <option value="interest" disabled selected>Enter your Topic Of Interest</option>
-                                  <option value="option1">Option 1</option>
-                                  <option value="option2">Option 2</option>
-                                  <option value="option3">Option 3</option>
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Description</label> <input type="text" name="phone"
+                                    placeholder="Enter your Description" required />
+                            </div>
+                        </div>
+                        <input type="button" name="previous" class="previous action-button-previous"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="next action-button" value="Next &gt;" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div>
+                                <label class="fieldlabels">Project Heading</label> <input type="text" name="heading"
+                                    placeholder="Enter your Project Heading" />
+                            </div>
+                            <div>
+                                <label class="dropdown" for="interest">Topic Of Interest</label>
+                                <select>
+                                    <option value="interest" disabled selected>Enter your Topic Of Interest</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
                                 </select>
-                          </div>
-                          <div>
-                              <label class="fieldlabels">Description</label> <input type="text" name="phone"
-                                  placeholder="Enter your Description" required/>
-                          </div>
-                          <div>
-                              <label class="fieldlabels">Project Media</label> <input type="file" name="media"
-                                  placeholder="Upload your Image" />
-                          </div>                           
-                          <div>
-                              <label class="fieldlabels">Project Video link</label> <input type="url"
-                                  name="linkedin" placeholder="Enter your Project Video link" />
-                          </div>
-                      </div>
-                      <input type="button" name="previous" class="previous action-button-previous" 
-                      value=" &lt; Previous" />
-                  <input type="button" name="next" class="next action-button" value="Next &gt;" />
-                  </fieldset>
-                  <fieldset>
-                      <div class="form-card">
-                      <h1>Set your Availability</h1>
-                      </div>
-                      <input type="button" name="previous" class="previous action-button-previous" 
-                      value=" &lt; Previous" />
-                  <input type="button" name="next" class="next action-button" value="Next &gt;" />
-                  </fieldset>
-              </form>
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Description</label> <input type="text" name="phone"
+                                    placeholder="Enter your Description" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Project Media</label> <input type="file" name="media"
+                                    placeholder="Upload your Image" />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Project Video link</label> <input type="url" name="linkedin"
+                                    placeholder="Enter your Project Video link" />
+                            </div>
+                        </div>
+                        <input type="button" name="previous" class="previous action-button-previous"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="next action-button" value="Next &gt;" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <h1>Set your Availability</h1>
+                        </div>
+                        <input type="button" name="previous" class="previous action-button-previous"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="action-button" value="Next &gt;" />
+                    </fieldset>
+                </form>
             </div>
         </div>
 
@@ -213,147 +214,206 @@
 
         <!-- Mentor section starts -->
         <div class="second-right">
-          <div>
-              <h1>Hello there Mentor!</h1>
-              <div class="count">
-                  <h2>Welcome to Sanrakshak</h2>
-                  <div class="count-range">
-                      <h2 id="steps">1</h2><h1>/7</h1>
-                  </div>
+            <div>
+                <h1>Hello there Mentor!</h1>
+                <div class="count">
+                    <h2>Welcome to Sanrakshak</h2>
+                    <div class="count-range">
+                        <h2 id="steps-sec">1</h2>
+                        <h1>/6</h1>
+                    </div>
 
-              </div>
-          </div>
-          <div class="row justify-content-center">
-              <form id="msform">
-                  <div class="stepper">
-                      <div class="item active ">
-                          <div class="inner">
-                              <img src="https://picsum.photos/70" class="image-right" alt="">
-                              <h4>Personal Information</h4>
-                          </div>
-                      </div>
-                      <div class="item ">
-                          <div class="inner">
-                              <img src="https://picsum.photos/70" class="image-right" alt="">
-                              <h4>My Experience</h4>
-                          </div>
-                      </div>
-                      <div class="item">
-                          <div class="inner">
-                              <img src="https://picsum.photos/70" class="image-right" alt="">
-                              <h4>My Education</h4>
-                          </div>
-                      </div>
-                      <div class="item">
-                          <div class="inner">
-                              <img src="https://picsum.photos/70" class="image-right" alt="">
-                              <h4>My Domain</h4>
-                          </div>
-                      </div>
-                      <div class="item">
-                          <div class="inner">
-                              <img src="https://picsum.photos/70" class="image-right" alt="">
-                              <h4>Topic of Intrest</h4>
-                          </div>
-                      </div>
-                      <div class="item">
-                        <div class="inner">
-                            <img src="https://picsum.photos/70" class="image-right" alt="">
-                            <h4>My Calendar</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <form id="msform">
+                    <div class="stepper">
+                        <div class="item active ">
+                            <div class="inner">
+                                <img src="https://picsum.photos/70" class="image-right" alt="">
+                                <h4>Personal Information</h4>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="inner">
+                                <img src="https://picsum.photos/70" class="image-right" alt="">
+                                <h4>My Experience</h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <img src="https://picsum.photos/70" class="image-right" alt="">
+                                <h4>My Education</h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <img src="https://picsum.photos/70" class="image-right" alt="">
+                                <h4>My Domain</h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <img src="https://picsum.photos/70" class="image-right" alt="">
+                                <h4>Topic of Intrest</h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <img src="https://picsum.photos/70" class="image-right" alt="">
+                                <h4>My Calendar</h4>
+                            </div>
                         </div>
                     </div>
-                  </div>
 
-                  <br> <!-- fieldsets -->
-                  <fieldset>
-                      <div class="form-card">
-                          <div>
-                              <label class="fieldlabels">Mentee Name</label> <input type="text" name="name"
-                                  placeholder="Enter your name" />
-                          </div>
+                    <br> <!-- fieldsets -->
+                    <fieldset>
+                        <div class="form-card">
+                            <div>
+                                <label class="fieldlabels">Mentee Name</label> <input type="text" name="name"
+                                    placeholder="Enter your name" required />
+                            </div>
 
-                          <div>
-                              <label class="fieldlabels">Email: *</label> <input type="email" name="email"
-                                  placeholder="Enter your mail Id" />
-                          </div>
-                          <div>
-                              <label class="fieldlabels">Phone Number</label> <input type="number" name="phone"
-                                  placeholder="Enter your Phone number" />
-                          </div>
-                          <div>
-                              <label class="fieldlabels">Profile photo</label> <input type="file" name="photo"
-                                  placeholder="Upload your Image" />
-                          </div>
-                          <div>
-                              <label class="fieldlabels">SUV ID</label> <input type="number" name="suvid"
-                                  placeholder="Enter your SUV ID" />
-                          </div>
-                          <div>
-                              <label class="fieldlabels">LinkedIn profile link</label> <input type="url"
-                                  name="linkedin" placeholder="Enter your LinkedIn profile link" />
-                          </div>
-                      </div>
-                     
-                      <input type="button" name="previous" class="previous action-button-previous" disabled="true"
-                          value=" &lt; Previous" />
-                      <input type="button" name="next" class="next action-button" value="Next &gt;" />
+                            <div>
+                                <label class="fieldlabels">Email</label> <input type="email" name="email"
+                                    placeholder="Enter your mail Id" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Phone Number</label> <input type="number" name="phone"
+                                    placeholder="Enter your Phone number" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Profile photo</label> <input type="file" name="photo"
+                                    placeholder="Upload your Image" />
+                            </div>
 
-                  </fieldset>
-                  <fieldset>
-                      <div class="form-card">
-                          <div class="row">
+                            <div>
+                                <label class="fieldlabels">LinkedIn profile link</label> <input type="url"
+                                    name="linkedin" placeholder="Enter your LinkedIn profile link" required />
+                            </div>
+                        </div>
 
-                              <div class="col-5">
-                                  <h2 class="steps">Step 2 - 4</h2>
-                              </div>
-                          </div> <label class="fieldlabels">First Name: *</label> <input type="text" name="fname"
-                              placeholder="First Name" /> <label class="fieldlabels">Last Name: *</label> <input
-                              type="text" name="lname" placeholder="Last Name" /> <label class="fieldlabels">Contact
-                              No.: *</label> <input type="text" name="phno" placeholder="Contact No." /> <label
-                              class="fieldlabels">Alternate Contact No.: *</label> <input type="text" name="phno_2"
-                              placeholder="Alternate Contact No." />
-                      </div> <input type="button" name="next" class="next action-button" value="Next" /> <input
-                          type="button" name="previous" class="previous action-button-previous" value="Previous" />
-                  </fieldset>
-                  <fieldset>
-                      <div class="form-card">
-                          <div class="row">
+                        <input type="button" name="previous" id="previous-button" class="previous action-button-previous " disabled="true"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="next action-button" value="Next &gt;" />
 
-                              <div class="col-5">
-                                  <h2 class="steps">Step 3 - 4</h2>
-                              </div>
-                          </div> <label class="fieldlabels">Upload Your Photo:</label> <input type="file" name="pic"
-                              accept="image/*"> <label class="fieldlabels">Upload Signature Photo:</label> <input
-                              type="file" name="pic" accept="image/*">
-                      </div> <input type="button" name="next" class="next action-button" value="Submit" /> <input
-                          type="button" name="previous" class="previous action-button-previous" value="Previous" />
-                  </fieldset>
-                  <fieldset>
-                      <div class="form-card">
-                          <div class="row">
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div>
+                                <label class="fieldlabels">Designation</label> <input type="text" name="desig"
+                                    placeholder="Enter your designation" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Organisation</label> <input type="text" name="org"
+                                    placeholder="Enter your Organisation" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Experience</label>
+                                <div class="experience-dates">
+                                    <input type="date" name="start" placeholder="Enter your start date" required />
+                                    <input type="date"id="end-date" name="end" placeholder="Enter your end date" required />
+                                </div>
 
-                              <div class="col-5">
-                                  <h2 class="steps">Step 4 - 4</h2>
-                              </div>
-                          </div> <br><br>
-                          <h2 class="purple-text text-center"><strong>SUCCESS !</strong></h2> <br>
-                          <div class="row justify-content-center">
-                              <div class="col-3"> <img src="https://i.imgur.com/GwStPmg.png" class="fit-image"> </div>
-                          </div> <br><br>
-                          <div class="row justify-content-center">
-                              <div class="col-7 text-center">
-                                  <h5 class="purple-text text-center">You Have Successfully Signed Up</h5>
-                              </div>
-                          </div>
-                      </div>
-                  </fieldset>
-              </form>
-          </div>
-      </div>
+                            </div>
+                        </div>
+                        <input type="button" name="previous" class="previous stage-level action-button-previous"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="next action-button" value="Next &gt;" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div>
+                                <label class="fieldlabels">Qualification</label> <input type="text" name="qual"
+                                    placeholder="Enter your qualification" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">University</label> <input type="text" name="uni"
+                                    placeholder="Enter your University" required />
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Duration</label>
+                                <div class="experience-dates">
+                                    <input type="date" name="start" placeholder="Enter your start date"  />
+                                    <input type="date" id="end-date" name="end" placeholder="Enter your end date" />
+                                </div>
+
+                            </div>
+                        </div>
+                        <input type="button" name="previous" class="previous stage-level action-button-previous"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="next action-button" value="Next &gt;" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div>
+                                <label class="dropdown" for="interest">Area of Expertise</label>
+                                <select>
+                                    <option value="interest" disabled selected>Enter your Area of Expertise</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="dropdown" for="industry">Industry</label>
+                                <select>
+                                    <option value="interest" disabled selected>Enter your Industry</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <input type="button" name="previous" class="previous action-button-previous"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="next action-button" value="Next &gt;" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div>
+                                <label class="dropdown" for="interest">Topic Of Interest</label>
+                                <select>
+                                    <option value="interest" disabled selected>Enter your Topic Of Interest</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="dropdown" for="industry">Industry</label>
+                                <select>
+                                    <option value="interest" disabled selected>Enter your Industry</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="fieldlabels">Description</label> <input type="text" name="phone"
+                                    placeholder="Enter your Description" required />
+                            </div>
+                        </div>
+                        <input type="button" name="previous" class="previous action-button-previous"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="next action-button" value="Next &gt;" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <h1>Set your Availability</h1>
+                        </div>
+                        <input type="button" name="previous" class="previous action-button-previous"
+                            value=" &lt; Previous" />
+                        <input type="button" name="next" class="action-button" value="Next &gt;" />
+                    </fieldset>
+
+                </form>
+            </div>
+        </div>
     </div>
 
 
-    
+
     <script src="./index.js"></script>
 </body>
 

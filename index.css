@@ -1,7 +1,7 @@
 #msform {
   text-align: center;
   position: relative;
- 
+
 }
 
 #msform fieldset {
@@ -21,8 +21,8 @@ body {
 }
 
 .form-card {
-  color: #16161E;	
-  font-size: 16px;	
+  color: #16161E;
+  font-size: 16px;
   text-align: left;
   position: relative;
   margin-top: 26px;
@@ -77,10 +77,11 @@ body {
   padding: 16px 33px;
 
 }
+
 /* === */
-.active{
+.active {
   background: #2A2559 !important;
-  color:white;
+  color: white;
 }
 
 input.previous.action-button-previous {
@@ -94,6 +95,7 @@ input.next.action-button {
   left: 47%;
   top: 10px;
 }
+
 #msform .action-button-previous {
   background: #17f0f005;
   padding: 16px 33px;
@@ -164,16 +166,17 @@ input.next.action-button {
   object-fit: cover
 }
 
-.stepper {
+.stepper,
+.experience-dates {
   display: flex;
 }
+
 /* === */
 .item {
   background: #b6bbbfbd;
   width: 140px;
   height: 138px;
   border-radius: 10px;
-  border: 1px solid black;
   margin-left: 0px 20px;
   margin: 0px 24px 12px 0px;
 
@@ -213,9 +216,11 @@ input.next.action-button {
   background: white;
   margin-top: -6px;
 }
-.left{
+
+.left {
   height: 881px;
 }
+
 .image1 {
 
   width: 303px;
@@ -274,7 +279,7 @@ input.next.action-button {
 }
 
 .main-wrapper {
-  margin-top:40px;
+  margin-top: 40px;
   margin-left: 22px;
   display: flex;
 }
@@ -285,17 +290,19 @@ input.next.action-button {
   position: relative;
 }
 
-.right,.second-right {
+.right,
+.second-right {
   position: relative;
   left: 63px;
 
 }
 
 .count-range {
-  margin-top:-17px;
+  margin-top: -17px;
   display: flex;
   margin-left: 150px
 }
+
 /* === */
 .inner {
   width: 61px;
@@ -305,7 +312,9 @@ input.next.action-button {
   margin-top: 20px;
 }
 
-.optional{margin-top:-22px;}
+.optional {
+  margin-top: -22px;
+}
 
 .image-right {
   border-radius: 21px;
@@ -361,30 +370,51 @@ input.next.action-button {
 .switches-container input:nth-of-type(2):checked~.switch-wrapper .switch div:nth-of-type(2) {
   opacity: 1;
 }
+
 /* select button */
-.form-card select {	
-  padding-top: 10px;	
-  padding-left: 20px;	
-  padding: 16px 284px 0px -1px;	
-  padding: 51px 284px opx -11px;	
-  border: 1px solid #E0DDFF;	
-  border-radius: 40px;	
-  margin-bottom: 39px;	
-  margin-top: -30px;	
-  height: 53px;	
-  width: 399px;	
-  display: flex;	
-  box-sizing: border-box;	
-  font-family: montserrat;	
-  color: black;	
-  background: white;	
-  font-size: 16px;	
-  letter-spacing: 1px;	
-  margin-left: 220px;	
+.form-card select {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding: 16px 284px 0px -1px;
+  padding: 51px 284px opx -11px;
+  border: 1px solid #E0DDFF;
+  border-radius: 40px;
+  margin-bottom: 39px;
+  margin-top: -30px;
+  height: 53px;
+  width: 399px;
+  display: flex;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: black;
+  background: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-left: 220px;
 }
+
 label.dropdown {
   font-weight: 600;
   color: #16161E;
   font-size: 16px;
   /* color: black; */
+}
+
+input#previous-button {
+  border: 1px solid #b6bbbf !important;
+  color: #b6bbbf !important;
+}
+
+input[type="date"] {
+  width: 192px !important;
+}
+
+input#end-date {
+  margin-left: 20px !important;
+  position: relative;
+}
+
+.stage-level {
+  margin-top: 20px !important;
+
 }
